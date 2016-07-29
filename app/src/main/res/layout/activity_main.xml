@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qluojieq.customcardview.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        />
+    <com.qluojieq.customcardview.DIYviewGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:background="@color/colorAccent"
+            android:layout_width="300dp"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+        <FrameLayout
+            android:background="@color/colorPrimary"
+            android:layout_width="500dp"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:background="@android:color/darker_gray"
+            android:layout_width="500dp"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:background="@android:color/holo_blue_bright"
+            android:layout_width="500dp"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+    </com.qluojieq.customcardview.DIYviewGroup>
+</LinearLayout>
